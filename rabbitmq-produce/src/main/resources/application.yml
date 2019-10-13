@@ -1,0 +1,14 @@
+server:
+  port: 8081
+eureka:
+  client:
+    service-url:
+      defaultZone: http://alan:123456@localhost:8761/eureka/
+spring:
+  application:
+    name: rabbitmq-producer
+  rabbitmq:
+    host: 192.168.1.103
+    port: 5672
+    username: guest
+    password: guest
